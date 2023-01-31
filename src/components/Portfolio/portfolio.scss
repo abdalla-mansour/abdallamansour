@@ -1,0 +1,109 @@
+.portfolio {
+    .title-portfolio {
+        text-align: center;
+        padding-top: 8rem;
+        font-size: 30px;
+        letter-spacing: 3px;
+        font-weight: bolder;
+    }
+    .container {
+        .display {
+            .mySwiper {
+                padding: 5rem;
+
+                .swiper {
+                    align-items: center;
+                    justify-content: center;
+                    cursor: grab;
+                }
+
+                .swiper-slide {
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                }
+
+                .swiper-button-next {
+                    display: none;
+                }
+
+                .swiper-button-prev {
+                    display: none;
+                }
+
+                .swiper-pagination-bullet {
+                    background-color: #000;
+                    border-radius: 0;
+                    width: 10px;
+                    height: 2px;
+                }
+            }
+        }
+    }
+}
+
+.porjects__content {
+    display: grid;
+    justify-content: center;
+    cursor: grab;
+}
+
+.projects__img {
+    width: 350px;
+    border-radius: .75rem;
+    margin-bottom: 1.25rem;
+}
+
+.project__subtitle {
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+}
+
+.projects__title {
+    font-size: var(--h2-font-size);
+    margin-bottom: 1.25rem;
+    margin: .5rem 0 1.25rem;
+}
+
+.projects__button {
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+    color: var(--title-color);
+    font-size: var(--small-font-size);
+}
+
+.projects__button i {
+    font-size: 1rem;
+    transition: transform .3s;
+}
+
+.projects__button:hover i {
+    transform: translateX(.25rem);
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        .logo {
+            left: 10%;
+        }
+
+        .hero-text-section {
+            left: 0%;
+            top: 45%;
+
+            #hero-text {
+                font-size: 25px;
+                width: 300px;
+            }
+        }
+    }
+
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                left: 24%;
+            }
+        }
+    }
+}

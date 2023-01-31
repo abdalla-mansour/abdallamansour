@@ -1,0 +1,92 @@
+.portfolio .title-portfolio {
+  text-align: center;
+  padding-top: 8rem;
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: bolder;
+}
+.portfolio .container .display .mySwiper {
+  padding: 5rem;
+}
+.portfolio .container .display .mySwiper .swiper {
+  align-items: center;
+  justify-content: center;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.portfolio .container .display .mySwiper .swiper-slide {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.portfolio .container .display .mySwiper .swiper-button-next {
+  display: none;
+}
+.portfolio .container .display .mySwiper .swiper-button-prev {
+  display: none;
+}
+.portfolio .container .display .mySwiper .swiper-pagination-bullet {
+  background-color: #000;
+  border-radius: 0;
+  width: 10px;
+  height: 2px;
+}
+
+.porjects__content {
+  display: grid;
+  justify-content: center;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.projects__img {
+  width: 350px;
+  border-radius: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.project__subtitle {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
+
+.projects__title {
+  font-size: var(--h2-font-size);
+  margin-bottom: 1.25rem;
+  margin: 0.5rem 0 1.25rem;
+}
+
+.projects__button {
+  display: inline-flex;
+  align-items: center;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+  color: var(--title-color);
+  font-size: var(--small-font-size);
+}
+
+.projects__button i {
+  font-size: 1rem;
+  transition: transform 0.3s;
+}
+
+.projects__button:hover i {
+  transform: translateX(0.25rem);
+}
+
+@media screen and (max-width: 1024px) {
+  .header .logo {
+    left: 10%;
+  }
+  .header .hero-text-section {
+    left: 0%;
+    top: 45%;
+  }
+  .header .hero-text-section #hero-text {
+    font-size: 25px;
+    width: 300px;
+  }
+  .hero-phone-black .hero-phone-template .phone {
+    left: 24%;
+  }
+}/*# sourceMappingURL=portfolio.css.map */

@@ -1,0 +1,746 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.skills {
+    position: relative;
+    height: 120vh;
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 3;
+    .title {
+        align-items: center;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.1);
+        font-weight: bolder;
+        padding-top: 7rem;
+        font-style: italic;
+        font-size: 55px;
+        letter-spacing: 10px;
+        font-family: 'Press Start 2P';
+    }
+    .box {
+        width: 50px;
+        padding-top: 2rem;
+        margin-left: 10rem;
+        .box-svg {
+            .svg {
+                &-1 {
+                    position: absolute;
+                    left: 50%;
+                    width: 50px;
+                    top: 50%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-2 {
+                    position: absolute;
+                    left: 90%;
+                    width: 40px;
+                    top: 10%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-3 {
+                    position: absolute;
+                    left: 80%;
+                    width: 40px;
+                    top: 20%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-4 {
+                    position: absolute;
+                    left: 70%;
+                    width: 40px;
+                    top: 30%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-5 {
+                    position: absolute;
+                    left: 60%;
+                    width: 40px;
+                    top: 40%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-6 {
+                    position: absolute;
+                    left: 40%;
+                    width: 40px;
+                    top: 55%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-7 {
+                    position: absolute;
+                    left: 30%;
+                    width: 40px;
+                    top: 30%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-8 {
+                    position: absolute;
+                    left: 20%;
+                    width: 40px;
+                    top: 20%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-9 {
+                    position: absolute;
+                    left: 10%;
+                    width: 40px;
+                    top: 10%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-10 {
+                    position: absolute;
+                    left: 40%;
+                    width: 40px;
+                    top: 42%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-11 {
+                    position: absolute;
+                    left: 40%;
+                    width: 40px;
+                    top: 70%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-12 {
+                    position: absolute;
+                    left: 50%;
+                    width: 40px;
+                    top: 78%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-13 {
+                    position: absolute;
+                    left: 10%;
+                    width: 40px;
+                    top: 25%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-14 {
+                    position: absolute;
+                    left: 20%;
+                    width: 40px;
+                    top: 35%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-15 {
+                    position: absolute;
+                    left: 30%;
+                    width: 40px;
+                    top: 45%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-16 {
+                    position: absolute;
+                    left: 90%;
+                    width: 40px;
+                    top: 22%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-17 {
+                    position: absolute;
+                    left: 50%;
+                    width: 40px;
+                    top: 65%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-18 {
+                    position: absolute;
+                    left: 60%;
+                    width: 40px;
+                    top: 55%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-19 {
+                    position: absolute;
+                    left: 70%;
+                    width: 40px;
+                    top: 45%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-20 {
+                    position: absolute;
+                    left: 80%;
+                    width: 40px;
+                    top: 35%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-21 {
+                    position: absolute;
+                    left: 10%;
+                    width: 40px;
+                    top: 40%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-22 {
+                    position: absolute;
+                    left: 20%;
+                    width: 40px;
+                    top: 50%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-23 {
+                    position: absolute;
+                    left: 30%;
+                    width: 40px;
+                    top: 60%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-24 {
+                    position: absolute;
+                    left: 40%;
+                    width: 40px;
+                    top: 85%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-25 {
+                    position: absolute;
+                    left: 50%;
+                    width: 40px;
+                    top: 90%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-26 {
+                    position: absolute;
+                    left: 60%;
+                    width: 40px;
+                    top: 70%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-27 {
+                    position: absolute;
+                    left: 70%;
+                    width: 40px;
+                    top: 60%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-28 {
+                    position: absolute;
+                    left: 80%;
+                    width: 40px;
+                    top: 50%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-29 {
+                    position: absolute;
+                    left: 90%;
+                    width: 40px;
+                    top: 35%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-30 {
+                    position: absolute;
+                    left: 10%;
+                    width: 40px;
+                    top: 55%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-31 {
+                    position: absolute;
+                    left: 20%;
+                    width: 40px;
+                    top: 60%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-32 {
+                    position: absolute;
+                    left: 30%;
+                    width: 40px;
+                    top: 75%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-33 {
+                    position: absolute;
+                    left: 80%;
+                    width: 40px;
+                    top: 7%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-34 {
+                    position: absolute;
+                    left: 50%;
+                    width: 40px;
+                    top: 35%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-35 {
+                    position: absolute;
+                    left: 60%;
+                    width: 40px;
+                    top: 85%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-36 {
+                    position: absolute;
+                    left: 70%;
+                    width: 40px;
+                    top: 75%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-38 {
+                    position: absolute;
+                    left: 80%;
+                    width: 40px;
+                    top: 63%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-37 {
+                    position: absolute;
+                    left: 90%;
+                    width: 40px;
+                    top: 50%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-39 {
+                    position: absolute;
+                    left: 10%;
+                    width: 40px;
+                    top: 65%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-40 {
+                    position: absolute;
+                    left: 20%;
+                    width: 40px;
+                    top: 75%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-41 {
+                    position: absolute;
+                    left: 30%;
+                    width: 40px;
+                    top: 85%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-42 {
+                    position: absolute;
+                    left: 20%;
+                    width: 40px;
+                    top: 7%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-43 {
+                    position: absolute;
+                    left: 90%;
+                    width: 40px;
+                    top: 80%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-44 {
+                    position: absolute;
+                    left: 80%;
+                    width: 40px;
+                    top: 85%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-45 {
+                    position: absolute;
+                    left: 70%;
+                    width: 40px;
+                    top: 85%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-46 {
+                    position: absolute;
+                    left: 80%;
+                    width: 40px;
+                    top: 75%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-47 {
+                    position: absolute;
+                    left: 90%;
+                    width: 40px;
+                    top: 65%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-48 {
+                    position: absolute;
+                    left: 10%;
+                    width: 40px;
+                    top: 80%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-49 {
+                    position: absolute;
+                    left: 20%;
+                    width: 40px;
+                    top: 85%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-50 {
+                    position: absolute;
+                    left: 10%;
+                    width: 40px;
+                    top: 90%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+                &-51 {
+                    position: absolute;
+                    left: 90%;
+                    width: 40px;
+                    top: 90%;
+                    animation: fly 8s ease-in-out infinite;
+                }
+            }
+        }
+    }
+}
+
+/* Shapes */
+.home__shape-small,
+.home__shape-big-1,
+.home__shape-big-2 {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(70px);
+}
+
+.home__shape-small {
+    width: 150px;
+    height: 150px;
+    background-color: hsl(0, 71%, 60%);
+    top: 5rem;
+    left: 30rem;
+    animation: float-shape 20s ease-in-out infinite;
+}
+
+.home__shape-big-1,
+.home__shape-big-2 {
+    width: 250px;
+    height: 250px;
+}
+
+.home__shape-big-1 {
+    background-color: hsl(203, 71%, 60%);
+    top: 8rem;
+    right: 25rem;
+    animation: float-shape-big 20s ease-in-out infinite;
+}
+
+.home__shape-big-2 {
+    background-color: hsl(106, 56%, 68%);
+    left: 35rem;
+    bottom: 10rem;
+    animation: float-shape 20s ease-in-out infinite;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateY(1rem);
+    }
+
+    50% {
+        transform: translateY(2rem);
+    }
+
+    100% {
+        transform: translateY(1rem);
+    }
+}
+
+@keyframes float-shape {
+    0% {
+        transform: translateX(10rem);
+    }
+
+    25% {
+        transform: translateY(5rem);
+    }
+
+    50% {
+        transform: translateX(1rem);
+    }
+
+    75% {
+        transform: translateY(10rem);
+    }
+
+    100% {
+        transform: translateX(10rem);
+    }
+}
+
+@keyframes float-shape-big {
+    0% {
+        transform: translateX(1rem);
+    }
+
+    25% {
+        transform: translateY(9rem);
+    }
+
+    50% {
+        transform: translateX(10rem);
+    }
+
+    75% {
+        transform: translateY(-4rem);
+    }
+
+    100% {
+        transform: translateX(1rem);
+    }
+}
+
+@media screen and (max-width: 1116px) {
+    .skills {
+        .title {
+            position: absolute;
+            font-size: 55px;
+            right: 21rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .skills {
+        .title {
+            font-size: 45px;
+        }
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .skills {
+        .title {
+            position: absolute;
+            font-size: 45px;
+            right: 19rem;
+        }
+
+        .home__shape-small {
+            width: 150px;
+            height: 150px;
+            top: 5rem;
+            left: -1rem;
+        }
+
+        .home__shape-big-1 {
+            top: 8rem;
+            right: 15rem;
+        }
+
+        .home__shape-big-2 {
+            left: -6rem;
+            bottom: 10rem;
+        }
+
+        .box {
+            .box-svg {
+                @for $i from 1 through 51 {
+                    .svg-#{$i} {
+                        width: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .skills {
+        .title {
+            position: absolute;
+            font-size: 45px;
+            right: 15rem;
+        }
+
+        .home__shape-small {
+            width: 150px;
+            height: 150px;
+            top: 5rem;
+            left: -1rem;
+        }
+
+        .home__shape-big-1 {
+            top: 8rem;
+            right: 15rem;
+        }
+        
+        .home__shape-big-2 {
+            left: -6rem;
+            bottom: 10rem;
+        }
+        
+        .box {
+            .box-svg {
+                @for $i from 1 through 51 {
+                        .svg-#{$i} {
+                            width: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 792px) {
+    .skills {
+        .title {
+            position: absolute;
+            font-size: 45px;
+            right: 13rem;
+        }
+    }
+}
+
+@media screen and (max-width: 731px) {
+    .skills {
+        .title {
+            position: absolute;
+            font-size: 45px;
+            right: 11.5rem;
+        }
+    }
+}
+
+@media screen and (max-width: 691px) {
+    .skills {
+        .title {
+            position: absolute;
+            font-size: 38px;
+            right: 9rem;
+        }
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .skills {
+        .title {
+            font-size: 35px;
+        }
+
+        .home__shape-small {
+            width: 150px;
+            height: 150px;
+            top: 5rem;
+            left: -1rem;
+        }
+
+        .home__shape-big-1 {
+            top: 8rem;
+            right: 15rem;
+        }
+        
+        .home__shape-big-2 {
+            left: -6rem;
+            bottom: 10rem;
+        }
+
+        .box {
+            .box-svg {
+                @for $i from 1 through 51 {
+                    .svg-#{$i} {
+                        width: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 516px) {
+    .skills {
+        .title {
+            font-size: 33px;
+            right: 7.3rem;
+        }
+    }
+}
+
+@media screen and (max-width: 484px) {
+    .skills {
+        .title {
+            font-size: 30px;
+            right: 7.3rem;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .skills {
+        .title {
+            font-size: 25px;
+        }
+
+        .home__shape-small {
+            width: 150px;
+            height: 150px;
+            top: 5rem;
+            left: -1rem;
+        }
+
+        .home__shape-big-1 {
+            top: 8rem;
+            right: 15rem;
+        }
+        
+        .home__shape-big-2 {
+            left: -6rem;
+            bottom: 10rem;
+        }
+
+        .box {
+            .box-svg {
+                @for $i from 1 through 51 {
+                    .svg-#{$i} {
+                        width: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .skills {
+        .title {
+            font-size: 25px;
+            right: 5.3rem;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .skills {
+        .title {
+            font-size: 25px;
+            right: 4.2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .skills {
+        .home__shape-small {
+            width: 150px;
+            height: 150px;
+            top: 5rem;
+            left: 1rem;
+        }
+
+        .home__shape-big-1 {
+            top: 8rem;
+            right: 1rem;
+        }
+        
+        .home__shape-big-2 {
+            left: 1rem;
+            bottom: 10rem;
+        }
+
+        .title {
+            position: absolute;
+            font-size: 18px;
+            left: 27.5%;
+        }
+
+        .box {
+            .box-svg {
+                @for $i from 1 through 51 {
+                    .svg-#{$i} {
+                        width: 22px;
+                    }
+                }
+            }
+        }
+    }
+}

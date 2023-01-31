@@ -1,0 +1,85 @@
+.testimonials .title-testimonials {
+  text-align: center;
+  padding-top: 8rem;
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: bolder;
+}
+.testimonials .container .display .mySwiper {
+  padding: 5rem;
+}
+.testimonials .container .display .mySwiper .swiper {
+  align-items: center;
+  justify-content: center;
+}
+.testimonials .container .display .mySwiper .swiper .box {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 3rem;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.testimonials .container .display .mySwiper .swiper-slide {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.testimonials .container .display .mySwiper .swiper-button-next {
+  color: #000;
+  width: 5px;
+  height: 5px;
+  padding: 0.4rem;
+  margin: 5.5rem 27rem;
+}
+.testimonials .container .display .mySwiper .swiper-button-prev {
+  color: #000;
+  width: 5px;
+  height: 5px;
+  padding: 0.4rem;
+  margin: 5.5rem 27rem;
+}
+.testimonials .container .display .mySwiper .swiper-pagination-bullet {
+  display: none;
+}
+
+@media screen and (max-width: 1124px) {
+  .testimonials .container .display .mySwiper .swiper-button-next {
+    margin: 5.5rem 5rem;
+  }
+  .testimonials .container .display .mySwiper .swiper-button-prev {
+    margin: 5.5rem 5rem;
+  }
+}
+@media screen and (max-width: 624px) {
+  .testimonials .container .display .mySwiper .swiper-button-next {
+    margin: 7.5rem 5rem;
+  }
+  .testimonials .container .display .mySwiper .swiper-button-prev {
+    margin: 7.5rem 5rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .testimonials .container .display .mySwiper .swiper .box .para {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .testimonials .container .display .mySwiper .swiper .box .para {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .testimonials .container .display .mySwiper .swiper .box .para {
+    font-size: 12px;
+    padding-top: 1rem;
+  }
+  .testimonials .container .display .mySwiper .swiper-button-next {
+    margin: 10.5rem 3rem;
+  }
+  .testimonials .container .display .mySwiper .swiper-button-prev {
+    margin: 10.5rem 3rem;
+  }
+}/*# sourceMappingURL=Testimonials.css.map */

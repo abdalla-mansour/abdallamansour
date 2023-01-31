@@ -1,0 +1,848 @@
+.header {
+    .logo {
+        width: 100px;
+        position: fixed;
+        left: 15%;
+        z-index: 1;
+    }
+    .hero-text-section {
+        position: absolute;
+        left: 2%;
+        top: 45%;
+        justify-content: center;
+        align-items: center;
+
+        .hero-text {
+            font-size: 30px;
+            width: 350px;
+            text-align: center;
+            font-weight: bolder;
+        }
+    }
+    .strips {
+        .s {
+            &-one {
+                position: absolute;
+                width: 1px;
+                height: 100vh;
+                background: rgb(0, 0, 0, 0.1);
+                left: 30.4%;
+            }
+            &-two {
+                position: absolute;
+                width: 1px;
+                height: 100vh;
+                background: rgb(0, 0, 0, 0.1);
+                left: 67.6%;
+            }
+            &1-one {
+                position: absolute;
+                width: 7px;
+                background-color: rgb(0, 0, 0, 0.1);
+                height: 10vh;
+                border-radius: 50px;
+                border: 3px solid #fff;
+                outline: 1px solid rgb(0, 0, 0, 0.1);
+                left: 30.1%;
+                top: 0px;
+                animation: fly4 10s ease-in-out infinite;
+            }
+            &1-two {
+                position: absolute;
+                width: 7px;
+                background-color: rgb(0, 0, 0, 0.1);
+                height: 10vh;
+                border-radius: 50px;
+                border: 3px solid #fff;
+                outline: 1px solid rgb(0, 0, 0, 0.1);
+                left: 67.35%;
+                top: 0px;
+                animation: fly1 10s ease-in-out infinite;
+            }
+        }
+    }
+    .scroll-down {
+        position: absolute;
+        left: 75%;
+        bottom: 10%;
+        z-index: 100;
+        .scroll {
+            position: absolute;
+            width: 1px;
+            height: 14vh;
+            background: rgb(0, 0, 0, 0.1);
+            left: 67.6%;
+        }
+        .text-scroll {
+            transform: rotate(90deg);
+            font-size: 15px;
+            cursor: pointer;
+            font-weight: 300;
+        }
+    }
+
+    .socials {
+        position: absolute;
+        left: 20%;
+        bottom: 0%;
+        z-index: 100;
+        .text-socails {
+            .links {
+                margin: 1.3rem;
+                .icons {
+                    text-align: center;
+                    font-size: 16px;
+                    color: rgb(0, 0, 0, 0.4);
+                }
+            }
+        }
+    }
+
+        @keyframes fly4 {
+            0% {
+                top: -100px;
+            }
+
+            50% {
+                top: 600px;
+            }
+    
+            100% {
+                top: -100px;
+            }
+        }
+    
+        @keyframes fly1 {
+            0% {
+                top: 600px;
+            }
+
+            50% {
+                top: -100px;
+            }
+    
+            100% {
+                top: 600px;
+            }
+        }
+
+        @keyframes fly2 {
+            0% {
+                top: 100px;
+            }
+
+            50% {
+                top: 70px;
+            }
+    
+            100% {
+                top: 100px;
+            }
+        }
+
+        @keyframes fly3 {
+            0% {
+                top: 400px;
+            }
+
+            50% {
+                top: 385px;
+            }
+    
+            100% {
+                top: 400px;
+            }
+        }
+    #tsparticles {
+        position: absolute;
+        height: 10rem;
+        width: 100px;
+    }
+}
+
+.hero-phone-black {
+    width: auto;
+    height: 100vh;
+    .hero-phone-template {
+        .phone {
+            position: absolute;
+            left: 37%;
+            width: 21rem;
+            animation: fly2 4s ease-in-out infinite;
+        }
+        .collage-element {
+            position: absolute;
+            width: 14rem;
+            left: 41.3%;
+            z-index: -1;
+            border-radius: 11%;
+            animation: fly3 7.5s ease-in-out infinite;
+        }
+    }
+}
+
+@media screen and (max-width: 1118px) {
+    .header {
+
+        .hero-text-section {
+            left: 0%;
+            top: 45%;
+
+            .hero-text {
+                font-size: 26px;
+                width: 300px;
+            }
+        }
+    }
+
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: -2rem 1rem;
+                width: 22rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        .logo {
+            left: 10%;
+        }
+        .hero-text-section {
+            left: 0%;
+            top: 45%;
+            .hero-text {
+                font-size: 26px;
+                width: 300px;
+            }
+        }
+    }
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: -2rem 4.8rem;
+                width: 21rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 914px) {
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: 5rem 2rem;
+                width: 27rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 821px) {
+    .header {
+
+        .hero-text-section {
+
+            .hero-text {
+                position: relative;
+                margin: -9rem 0;
+                left: 100%;
+                font-size: 23px;
+                width: 270px;
+            }
+        }
+    }
+
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: 22rem 2rem;
+                width: 21rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 791px) {
+
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: 18rem 2rem;
+                width: 20rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .header {
+
+        .hero-text-section {
+
+            .hero-text {
+                position: relative;
+                margin: -10rem 0;
+                left: 100%;
+                font-size: 23px;
+                width: 250px;
+            }
+        }
+    }
+
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: 9.3rem 0rem;
+                width: 24rem;
+            }
+        }
+    }
+
+        @keyframes fly2 {
+            0% {
+                top: 190px;
+            }
+
+            50% {
+                top: 170px;
+            }
+    
+            100% {
+                top: 190px;
+            }
+        }
+}
+
+@media screen and (max-width: 710px) {
+    .header {
+
+        .hero-text-section {
+
+            .hero-text {
+                position: relative;
+                margin: -10rem 0;
+                left: 90%;
+                font-size: 23px;
+                width: 250px;
+            }
+        }
+
+        .socials {
+        position: absolute;
+        left: 10%;
+        bottom: 0%;
+        z-index: 100;
+        .text-socails {
+            .links {
+                margin: 1.3rem;
+                .icons {
+                    text-align: center;
+                    font-size: 16px;
+                    color: rgb(0, 0, 0, 0.4);
+                }
+            }
+        }
+    }
+    }
+
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: 7rem 2.5rem;
+                width: 17rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 641px) {
+    .header {
+
+        .hero-text-section {
+
+            .hero-text {
+                position: relative;
+                margin: -10rem 0;
+                left: 68%;
+                font-size: 21px;
+                width: 250px;
+            }
+        }
+    }
+
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: 7rem 1rem;
+                width: 17rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 589px) {
+    .header {
+
+        .hero-text-section {
+
+            .hero-text {
+                position: relative;
+                margin: -11.5rem 0;
+                left: 66%;
+                font-size: 23px;
+                width: 250px;
+            }
+        }
+    }
+
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: 8rem 0rem;
+                width: 18rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .header {
+        .hero-text-section {
+
+            .hero-text {
+                position: relative;
+                left: 60%;
+                margin: -10rem 0;
+                font-size: 23px;
+                width: 250px;
+            }
+        }
+    }
+
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: 7rem 0.2rem;
+                width: 17rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 541px) {
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: 6rem 0rem;
+                width: 17rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 526px) {
+    .header {
+        .hero-text-section {
+
+            .hero-text {
+                position: relative;
+                left: 53%;
+                margin: -10rem 0;
+                font-size: 23px;
+                width: 250px;
+            }
+        }
+    }
+
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: 7rem -0.6rem;
+                width: 18rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 476px) {
+    .header {
+        .hero-text-section {
+
+            .hero-text {
+                position: relative;
+                left: 43%;
+                margin: -10rem 0;
+                font-size: 23px;
+                width: 250px;
+            }
+        }
+    }
+
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: 8rem -1rem;
+                width: 18rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .header {
+        .logo {
+            left: 3%;
+            width: 90px;
+        }
+
+        .hero-text-section {
+
+            .hero-text {
+                position: relative;
+                left: 37%;
+                margin: -8rem 0;
+                font-size: 23px;
+                width: 250px;
+            }
+        }
+    }
+
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: 5rem -1rem;
+                width: 16rem;
+            }
+        }
+    }
+
+    @keyframes fly2 {
+        0% {
+            top: 280px;
+        }
+
+        50% {
+            top: 260px;
+        }
+
+        100% {
+            top: 280px;
+        }
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .header {
+
+        .hero-text-section {
+            .hero-text {
+                position: relative;
+                left: 32.5%;
+                margin: -8rem 0;
+                font-size: 23px;
+                width: 250px;
+            }
+        }
+    }
+
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: 4rem -1.5rem;
+                width: 16rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .header {
+
+        .hero-text-section {
+            .hero-text {
+                position: relative;
+                left: 32.5%;
+                margin: -8rem 0;
+                font-size: 23px;
+                width: 250px;
+            }
+        }
+    }
+
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: 5rem -1.5rem;
+                width: 16rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 413px) {
+    .header {
+
+        .hero-text-section {
+            .hero-text {
+                position: relative;
+                left: 29.5%;
+                margin: -8rem 0;
+                font-size: 20px;
+                width: 250px;
+            }
+        }
+    }
+
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: 5rem -1.5rem;
+                width: 16rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+        .logo {
+            left: 2%;
+            width: 80px;
+        }
+
+        .hero-text-section {
+            .hero-text {
+                position: relative;
+                left: 26.5%;
+                margin: -8rem 0;
+                font-size: 20px;
+                width: 250px;
+            }
+        }
+    }
+
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: -2.5rem -1.6rem;
+                width: 16rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 394px) {
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: 2rem -2rem;
+                width: 16rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 391px) {
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: 2rem -2rem;
+                width: 16rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 386px) {
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: 5rem -2rem;
+                width: 16rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .header {
+        .socials {
+        position: absolute;
+        left: 4%;
+        bottom: 0%;
+        z-index: 100;
+        .text-socails {
+            .links {
+                margin: 1.3rem;
+                .icons {
+                    text-align: center;
+                    font-size: 14px;
+                    color: rgb(0, 0, 0, 0.4);
+                }
+            }
+        }
+    }
+    }
+
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: -2rem -2rem;
+                width: 15.5rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .header {
+        .logo {
+            left: 2.2%;
+            width: 75px;
+        }
+
+        .hero-text-section {
+
+            .hero-text {
+                position: relative;
+                left: 20.5%;
+                margin: -9rem 0;
+                font-size: 20px;
+                width: 250px;
+            }
+        }
+    }
+
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: -2rem -2rem;
+                width: 15rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 335px) {
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: -2rem -2rem;
+                width: 15rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .header {
+
+        .hero-text-section {
+
+            .hero-text {
+                position: relative;
+                left: 15.5%;
+                margin: -9rem 0;
+                font-size: 20px;
+                width: 250px;
+            }
+        }
+    }
+
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: -2rem -2.5rem;
+                width: 15rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .header {
+        .logo {
+            left: 1%;
+            width: 65px;
+        }
+
+        .hero-text-section {
+
+            .hero-text {
+                position: relative;
+                left: 16.5%;
+                margin: -9rem 0;
+                font-size: 18px;
+                width: 220px;
+            }
+        }
+    }
+
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: 5rem -3rem;
+                width: 15rem;
+            }
+        }
+    }
+    .scroll-down {
+        position: absolute;
+        left: 50%;
+        bottom: 0%;
+        .scroll {
+            position: absolute;
+            width: 1px;
+            height: 30vh;
+            background: rgb(0, 0, 0, 0.1);
+            left: 62.6%;
+        }
+        .text-scroll {
+            transform: rotate(90deg);
+            font-size: 10px;
+            font-weight: 300;
+            width: 100px;
+        }
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .hero-phone-black {
+        .hero-phone-template {
+            .phone {
+                position: absolute;
+                margin: -2rem -3rem;
+                width: 15rem;
+            }
+        }
+    }
+}

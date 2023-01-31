@@ -1,0 +1,228 @@
+.Code {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  padding-top: 8rem;
+  display: flex;
+  margin: 0rem;
+}
+.Code .strips .s-one {
+  position: absolute;
+  width: 1px;
+  height: 26.2vh;
+  background: rgba(0, 0, 0, 0.1);
+  left: 60.4%;
+  top: 0%;
+}
+.Code .strips .s-two {
+  position: absolute;
+  width: 1px;
+  height: 26.2vh;
+  background: rgba(0, 0, 0, 0.1);
+  left: 74.6%;
+  top: 0%;
+}
+.Code .strips .s1-one {
+  position: absolute;
+  width: 4px;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 26.1vh;
+  outline: 1px solid rgba(0, 0, 0, 0.01);
+  left: 60.2%;
+  top: 0px;
+  -webkit-animation: opactiy 10s ease-in-out infinite;
+          animation: opactiy 10s ease-in-out infinite;
+}
+.Code .strips .s1-two {
+  position: absolute;
+  width: 4px;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 26.1vh;
+  outline: 1px solid rgba(0, 0, 0, 0.01);
+  left: 74.4%;
+  top: 0px;
+  -webkit-animation: opactiy 10s ease-in-out infinite;
+          animation: opactiy 10s ease-in-out infinite;
+}
+.Code .code-right {
+  width: 400px;
+}
+.Code .code-right .button {
+  cursor: pointer;
+  text-align: center;
+  background: linear-gradient(90deg, hsl(277deg, 56%, 68%) 0%, hsl(203deg, 71%, 60%) 100%);
+  padding: 1rem;
+  width: 130px;
+  border-radius: 1rem;
+  margin: 1rem 1rem;
+  color: #fff;
+  border: 3px solid #fff;
+  outline: 1px solid rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+.Code .code-right .button:hover {
+  color: #000;
+  background: transparent;
+  outline: 3px solid rgba(0, 0, 0, 0.06);
+}
+.Code .code-left {
+  margin-left: 5rem;
+  z-index: 100;
+}
+.Code .code-left img {
+  -webkit-animation: fly2 4s ease-in-out infinite;
+          animation: fly2 4s ease-in-out infinite;
+}
+
+@-webkit-keyframes opactiy {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opactiy {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .Code {
+    margin: 0rem 0rem 0rem 1rem;
+  }
+  .Code .code-right {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 928px) {
+  .Code {
+    margin: 0rem 0rem 0rem 1rem;
+  }
+  .Code .code-right {
+    width: 280px;
+  }
+  .Code .code-right h1 {
+    font-size: 30px;
+  }
+  .Code .code-right p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 878px) {
+  .Code {
+    margin: 0rem;
+    flex-direction: column-reverse;
+    height: 110vh;
+  }
+  .Code .code-right {
+    width: 400px;
+    padding-top: 3rem;
+    align-items: center;
+    text-align: center;
+  }
+  .Code .code-right h1 {
+    font-size: 30px;
+  }
+  .Code .code-right p {
+    font-size: 16px;
+  }
+  .Code .code-right .button {
+    margin: 1rem 8rem;
+  }
+  .Code .code-left {
+    margin-left: 3rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Code .code-left {
+    margin-left: 0rem;
+  }
+}
+@media screen and (max-width: 505px) {
+  .Code .code-right {
+    width: 365px;
+  }
+  .Code .code-right .button {
+    margin: 1rem 7rem;
+  }
+  .Code .code-left {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .Code .code-right {
+    width: 335px;
+  }
+  .Code .code-right p {
+    font-size: 13px;
+  }
+  .Code .code-right .button {
+    margin: 1rem 7rem;
+    padding: 0.5rem;
+    width: 100px;
+  }
+  .Code .code-left {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .Code .code-right {
+    width: 250px;
+  }
+  .Code .code-right p {
+    font-size: 13px;
+  }
+  .Code .code-right .button {
+    margin: 1rem 4.5rem;
+  }
+}
+@media screen and (max-width: 315px) {
+  .Code .code-right {
+    width: 220px;
+  }
+  .Code .code-right h1 {
+    font-size: 25px;
+  }
+  .Code .code-right p {
+    font-size: 13px;
+  }
+  .Code .code-right .button {
+    margin: 1rem 3.5rem;
+  }
+  .Code .code-left {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 265px) {
+  .Code .code-right {
+    width: 200px;
+  }
+  .Code .code-right h1 {
+    font-size: 23px;
+  }
+  .Code .code-right p {
+    font-size: 11px;
+  }
+  .Code .code-right .button {
+    margin: 1rem 4rem;
+    padding: 0.5rem;
+    width: 70px;
+    font-size: 11px;
+  }
+  .Code .code-left {
+    width: 220px;
+  }
+}/*# sourceMappingURL=code.css.map */

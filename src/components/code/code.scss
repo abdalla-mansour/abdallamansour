@@ -1,0 +1,252 @@
+.Code {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    padding-top: 8rem;
+    display: flex;
+    margin: 0rem;
+    .strips {
+        .s {
+            &-one {
+                position: absolute;
+                width: 1px;
+                height: 26.2vh;
+                background: rgb(0, 0, 0, 0.1);
+                left: 60.4%;
+                top: 0%;
+            }
+            &-two {
+                position: absolute;
+                width: 1px;
+                height: 26.2vh;
+                background: rgb(0, 0, 0, 0.1);
+                left: 74.6%;
+                top: 0%;
+            }
+            &1-one {
+                position: absolute;
+                width: 4px;
+                background-color: rgb(0, 0, 0, 0.1);
+                height: 26.1vh;
+                outline: 1px solid rgb(0, 0, 0, 0.01);
+                left: 60.2%;
+                top: 0px;
+                animation: opactiy 10s ease-in-out infinite;
+            }
+            &1-two {
+                position: absolute;
+                width: 4px;
+                background-color: rgba(0, 0, 0, 0.1);
+                height: 26.1vh;
+                outline: 1px solid rgb(0, 0, 0, 0.01);
+                left: 74.4%;
+                top: 0px;
+                animation: opactiy 10s ease-in-out infinite;
+            }
+        }
+    }
+    .code-right {
+        width: 400px;
+        .button {
+            cursor: pointer;
+            text-align: center;
+            background: linear-gradient(90deg, hsl(277, 56%, 68%) 0%, hsl(203, 71%, 60%) 100%);
+            padding: 1rem;
+            width: 130px;
+            border-radius: 1rem;
+            margin: 1rem 1rem;
+            color: #fff;
+            border: 3px solid #fff;
+            outline: 1px solid rgba(0, 0, 0, 0.1);
+            transition: .3s;
+            &:hover {
+                color: #000;
+                background: transparent;
+                outline: 3px solid rgba(0, 0, 0, 0.06);
+            }
+        }
+    }
+    .code-left {
+        margin-left: 5rem;
+        z-index: 100;
+        img {
+            animation: fly2 4s ease-in-out infinite;
+        }
+    }
+}
+
+@keyframes opactiy {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .Code {
+        margin: 0rem 0rem 0rem 1rem;
+        .code-right {
+            width: 300px;
+        }
+    }
+}
+
+@media screen and (max-width: 928px) {
+    .Code {
+        margin: 0rem 0rem 0rem 1rem;
+
+        .code-right {
+            width: 280px;
+            h1 {
+                font-size: 30px
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 878px) {
+    .Code {
+        margin: 0rem;
+        flex-direction: column-reverse;
+        height: 110vh;
+
+        .code-right {
+            width: 400px;
+            padding-top: 3rem;
+            align-items: center;
+            text-align: center;
+            h1 {
+                font-size: 30px;
+            }
+            p {
+                font-size: 16px;
+            }
+            .button {
+                margin: 1rem 8rem;
+            }
+        }
+        .code-left {
+        margin-left: 3rem;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Code {
+        .code-left {
+            margin-left: 0rem;
+        }
+    }
+}
+
+@media screen and (max-width: 505px) {
+    .Code {
+        .code-right {
+            width: 365px;
+            .button {
+                margin: 1rem 7rem;
+            }
+        }
+        .code-left {
+            width: 400px;
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .Code {
+        .code-right {
+            width: 335px;
+            p {
+                font-size: 13px;
+            }
+            .button {
+                margin: 1rem 7rem;
+                padding: 0.5rem;
+                width: 100px;
+            }
+        }
+
+        .code-left {
+            width: 300px;
+        }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .Code {
+        .code-right {
+            width: 250px;
+
+            p {
+                font-size: 13px;
+            }
+
+            .button {
+                margin: 1rem 4.5rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 315px) {
+    .Code {
+        .code-right {
+            width: 220px;
+
+            h1 {
+                font-size: 25px;
+            }
+
+            p {
+                font-size: 13px;
+            }
+
+            .button {
+                margin: 1rem 3.5rem;
+            }
+        }
+        .code-left {
+            width: 250px;
+        }
+    }
+}
+
+@media screen and (max-width: 265px) {
+    .Code {
+        .code-right {
+            width: 200px;
+
+            h1 {
+                font-size: 23px;
+            }
+
+            p {
+                font-size: 11px;
+            }
+
+            .button {
+                margin: 1rem 4rem;
+                padding: 0.5rem;
+                width: 70px;
+                font-size: 11px;
+            }
+        }
+
+        .code-left {
+            width: 220px;
+        }
+    }
+}
